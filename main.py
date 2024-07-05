@@ -5,6 +5,9 @@ from google.cloud import speech
 import io
 import vertexai
 from vertexai.generative_models import GenerativeModel
+from flask import Flask, render_template, request, jsonify
+
+app = Flask(__name__)
 
 # Set the environment variable within the script
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "account.json"
@@ -20,7 +23,6 @@ def record_audio(filename, duration=5):
     p = pyaudio.PyAudio()
 
     # Open a new stream
-    print("Recording...")
     stream = p.open(format=sample_format,
                     channels=channels,
                     rate=fs,
@@ -48,7 +50,6 @@ def record_audio(filename, duration=5):
     wf.setframerate(fs)
     wf.writeframes(b''.join(frames))
     wf.close()
-    print("Recording finished.")
 
 def transcribe_audio(audio_file_path):
     client = speech.SpeechClient()
@@ -71,25 +72,27 @@ def transcribe_audio(audio_file_path):
 
     return transcript.strip()
 
-def main():
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/record', methods=['POST'])
+def record():
     audio_file = "audio/recorded_audio.wav"
     project_id = "nifty-altar-428404-c4"
     vertexai.init(project=project_id, location="us-central1")
 
     model = GenerativeModel(model_name="gemini-1.5-flash-001")
 
-    while True:
-        record_audio(audio_file, duration=5)
-        transcription = transcribe_audio(audio_file)
-        print("Transcription:", transcription)
+    record_audio(audio_file, duration=5)
+    transcription = transcribe_audio(audio_file)
 
-        response = model.generate_content(transcription)
-        print(response.text)
-        print("Say the end to end the service")
+    response = model.generate_content(transcription)
 
-        if "the end" in transcription.lower():
-            print("Thank you for choosing the service.")
-            break
+    return jsonify({
+        'transcription': transcription,
+        'response': response.text
+    })
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)

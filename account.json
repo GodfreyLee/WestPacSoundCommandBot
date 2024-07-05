@@ -1,13 +1,27 @@
-{
-    "type": "service_account",
-    "project_id": "nifty-altar-428404-c4",
-    "private_key_id": "af2d600aeee2ba2ede3539ac0415ddaf458ebd3f",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4FtWbz6rNYgwm\nFtObHtdHKXL4egmxqP1NLEc+MGSNn20q4+QSM0SdW3QTt/158K6MCRweMAQa4HFD\n6W2TnCBgX1V3EYIn4SiH4Z4VuJHvB36GwtLHw+Bdi1krxhHvlVkSlWbu5tPO2OL+\nNkIy/3gBYzSoDZ2z+jAvkXTlG4I9oLaYDYOYuvw44xbIWY33rn6APwGB9S20hU7d\nObV0+G6B1+YJIbEh3CJ/kcNAUD/8tL9FlaeUbg1UmGOliUsgOsKx01IAkWBgvK/b\nS5mdsLU0c/kC04Ifb6IU7jaoPeQJBEhh6fdkxY6bykeOXhmFAzcaCqZCdHtrlIzS\nBVINqbF/AgMBAAECggEARaC9YpWFcPFozu9LUhy0KEJRLhJaoEveotXgjHEZV0e5\nrsNLfGbPyQTSPrMUuI6ENosri2913gSOUrVzsKUYydrFJKgGprbO8bYwaN7Ks7IN\n9UKzHsPDlR4juB7OoePHMPQ5XpsH+fCmyqgTGd7usPeo7vdXcr9qglNt90oUVOJT\n47V5Oc8fTsLoEBe9WkEU8DZ7zj6fRLlTFgHfnOAfeBaUNI0OXClTUO0yJzPIAeTG\nAD5pXt1CsHSXTECGnXSvouBHfUku7AKCTlsxrVwp++PE+NmOAairzt3vWuUcvqMJ\nx4U+iVzRNKXn2MV8/HD2uuTI2NnyTa4t5seU8AWPYQKBgQDr8WFXe221AxbbeuXu\nuE57pvvBen0QT2v6Epg6wN8VfMYQ1miehHd8v4UcVUKKs88gYiV9WWTkreSEkvtT\nsaVxGblnP0J0AMtbHu/No2O4ILjvQV1vTnXuYGN3u4uzI7pb6XOgP2mNxGUSQ1c2\nugffjXG+Kul2uRydSqPUjDfQ2wKBgQDHvQHhrkGTaIEEiRCA8k5hRUuNpMuLyGce\n2N94J7qzxsCnruOCeHcJM8Ea30KX7+gPHjfsyfvMrTyxlMQ3+sGiJ13D8tUY2olz\n9Rp8HoLICLlV4lwEvNRiNGuy5Qx/wndm7eBSSSQK5+270Cf/phzk/0ecT9yIRjsB\n3Fc/i1VhLQKBgFuhhtheyyB9bqcWd63aTkCffS6Kz39CGQEpr41B0mGZ76IiYscN\nUwpTpvJ1+j27zzkYZM7lpNVa42DJZGoAl+vwvZxnaPt8Q33D6gXG6rdbnfbtP8g2\nhH5rWLXrVDniKkH/zDPz7J5uI4KQPJK4dM5RNFdSexDsmzxK/I1TV2n5AoGBAItn\nEuUb5ZCoI0OzFd2pP6ML5gtZtOY+XBpfarhFojzOvq9JlGf/A7Vcda33nFbGjcPf\nZ1DQN/lF/1JBbiFT1ckCiKK13JyYCc7whieSc9yAmjmi3m5ADEruIyycR/jzFLq1\n0xYbDhi+fmHSidgXa5s3wBcMdfJ2ccB+tDYZXOGRAoGBAM1rvCiCrShseMhxlfR0\n3bir5Ay98GcT0AZvnTXAN9MkXN0dhcSiwvbecE9NiFKumAg0KVtOROyA7jTLgKwU\nv6i1CfEnPWuI2L8kbWWVZuYKZeXv5htTy140Nzq/aHzVda4QsgMOWiRD+rK9rII3\n8CGfqWHxgYyhIYLE2rMWVUp8\n-----END PRIVATE KEY-----\n",
-    "client_email": "speech-to-text-quickstart@nifty-altar-428404-c4.iam.gserviceaccount.com",
-    "client_id": "112407842235734722563",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-quickstart%40nifty-altar-428404-c4.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }  
+{ 
+
+"type": "service_account", 
+
+"project_id": "nifty-altar-428404-c4", 
+
+"private_key_id": "af2d600aeee2ba2ede3539ac0415ddaf458ebd3f", 
+
+"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4FtWbz6rNYgwm\nFtObHtdHKXL4egmxqP1NLEc+MGSNn20q4+QSM0SdW3QTt/158K6MCRweMAQa4HFD\n6W2TnCBgX1V3EYIn4SiH4Z4VuJHvB36GwtLHw+Bdi1krxhHvlVkSlWbu5tPO2OL+\nNkIy/3gBYzSoDZ2z+jAvkXTlG4I9oLaYDYOYuvw44xbIWY33rn6APwGB9S20hU7d\nObV0+G6B1+YJIbEh3CJ/kcNAUD/8tL9FlaeUbg1UmGOliUsgOsKx01IAkWBgvK/b\nS5mdsLU0c/kC04Ifb6IU7jaoPeQJBEhh6fdkxY6bykeOXhmFAzcaCqZCdHtrlIzS\nBVINqbF/AgMBAAECggEARaC9YpWFcPFozu9LUhy0KEJRLhJaoEveotXgjHEZV0e5\nrsNLfGbPyQTSPrMUuI6ENosri2913gSOUrVzsKUYydrFJKgGprbO8bYwaN7Ks7IN\n9UKzHsPDlR4juB7OoePHMPQ5XpsH+fCmyqgTGd7usPeo7vdXcr9qglNt90oUVOJT\n47V5Oc8fTsLoEBe9WkEU8DZ7zj6fRLlTFgHfnOAfeBaUNI0OXClTUO0yJzPIAeTG\nAD5pXt1CsHSXTECGnXSvouBHfUku7AKCTlsxrVwp++PE+NmOAairzt3vWuUcvqMJ\nx4U+iVzRNKXn2MV8/HD2uuTI2NnyTa4t5seU8AWPYQKBgQDr8WFXe221AxbbeuXu\nuE57pvvBen0QT2v6Epg6wN8VfMYQ1miehHd8v4UcVUKKs88gYiV9WWTkreSEkvtT\nsaVxGblnP0J0AMtbHu/No2O4ILjvQV1vTnXuYGN3u4uzI7pb6XOgP2mNxGUSQ1c2\nugffjXG+Kul2uRydSqPUjDfQ2wKBgQDHvQHhrkGTaIEEiRCA8k5hRUuNpMuLyGce\n2N94J7qzxsCnruOCeHcJM8Ea30KX7+gPHjfsyfvMrTyxlMQ3+sGiJ13D8tUY2olz\n9Rp8HoLICLlV4lwEvNRiNGuy5Qx/wndm7eBSSSQK5+270Cf/phzk/0ecT9yIRjsB\n3Fc/i1VhLQKBgFuhhtheyyB9bqcWd63aTkCffS6Kz39CGQEpr41B0mGZ76IiYscN\nUwpTpvJ1+j27zzkYZM7lpNVa42DJZGoAl+vwvZxnaPt8Q33D6gXG6rdbnfbtP8g2\nhH5rWLXrVDniKkH/zDPz7J5uI4KQPJK4dM5RNFdSexDsmzxK/I1TV2n5AoGBAItn\nEuUb5ZCoI0OzFd2pP6ML5gtZtOY+XBpfarhFojzOvq9JlGf/A7Vcda33nFbGjcPf\nZ1DQN/lF/1JBbiFT1ckCiKK13JyYCc7whieSc9yAmjmi3m5ADEruIyycR/jzFLq1\n0xYbDhi+fmHSidgXa5s3wBcMdfJ2ccB+tDYZXOGRAoGBAM1rvCiCrShseMhxlfR0\n3bir5Ay98GcT0AZvnTXAN9MkXN0dhcSiwvbecE9NiFKumAg0KVtOROyA7jTLgKwU\nv6i1CfEnPWuI2L8kbWWVZuYKZeXv5htTy140Nzq/aHzVda4QsgMOWiRD+rK9rII3\n8CGfqWHxgYyhIYLE2rMWVUp8\n-----END PRIVATE KEY-----\n", 
+
+"client_email": "speech-to-text-quickstart@nifty-altar-428404-c4.iam.gserviceaccount.com", 
+
+"client_id": "112407842235734722563", 
+
+"auth_uri": "https://accounts.google.com/o/oauth2/auth", 
+
+"token_uri": "https://oauth2.googleapis.com/token", 
+
+"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", 
+
+"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-quickstart%40nifty-altar-428404-c4.iam.gserviceaccount.com", 
+
+"universe_domain": "googleapis.com" 
+
+}  
+
+ 
