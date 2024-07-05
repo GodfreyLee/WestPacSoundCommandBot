@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Interaction</title>
+</head>
+<body>
+    <h1>Voice Interaction</h1>
+    <button id="recordButton">Record Audio</button>
+    <p id="transcription">Transcription will appear here...</p>
+    <p id="response">Response will appear here...</p>
+
+    <script>
+        document.getElementById('recordButton').addEventListener('click', () => {
+            fetch('/record', {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('transcription').innerText = 'Transcription: ' + data.transcription;
+                document.getElementById('response').innerText = 'Response: ' + data.response;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
