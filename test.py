@@ -73,7 +73,7 @@ def transcribe_audio(audio_file_path):
 
 def main():
     audio_file = "audio/recorded_audio.wav"
-    project_id = "nifty-altar-428404-c4"
+    project_id = "Type your project id"
     vertexai.init(project=project_id, location="us-central1")
 
     model = GenerativeModel(model_name="gemini-1.5-flash-001")

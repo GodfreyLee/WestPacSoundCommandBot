@@ -79,7 +79,7 @@ def index():
 @app.route('/record', methods=['POST'])
 def record():
     audio_file = "audio/recorded_audio.wav"
-    project_id = "nifty-altar-428404-c4"
+    project_id = "Type Your project_id"
     vertexai.init(project=project_id, location="us-central1")
 
     model = GenerativeModel(model_name="gemini-1.5-flash-001")
